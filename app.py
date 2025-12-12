@@ -78,7 +78,7 @@ if st.button("Generate Insight"):
                             "content": prompt,
                         }
                     ],
-                    model="llama3-8b-8192", # Free, Fast, Open Source Model
+                    model="llama-3.3-70b-versatile", # Free, Fast, Open Source Model
                 )
                 
                 insight = chat_completion.choices[0].message.content
